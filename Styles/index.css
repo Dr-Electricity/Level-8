@@ -1,0 +1,40 @@
+#navbar {
+    padding: 15px 30px;
+    background-color: #393E46;
+    font-family: 'open sans', sans-serif;
+    color: #00ADB5;
+    border-radius: 10px 100px;
+
+}
+
+#navbar a {
+    color: #00ADB5;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+#navbar button {
+    background-color: #393E46;
+    border: none;
+    padding: 5px 20px;
+}
+
+#navbar button:hover{
+    background: #292d32;
+}
+
+body{
+    background-color: #222831;
+    font-family: 'open sans', sans-serif;
+    color: #00ADB5;
+}
+h1 {
+    padding-top: 150px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}

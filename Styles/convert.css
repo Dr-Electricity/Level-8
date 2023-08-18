@@ -1,0 +1,38 @@
+body{
+    font: 'open sans' 'sans-serif' !important;
+}
+
+h1 {
+    margin-top: -60px;
+}
+
+#conversions li {
+    margin-bottom: 5px;
+}
+
+#conversions {
+    margin-left: 50px;
+}
+
+.form , #ConvertButton{
+    color: #00ADB5;
+    background-color: #393E46;
+    border: 0;
+    padding: 5px 20px;
+}
+
+#ConvertButton:hover{
+    background: #292d32;
+}
+
+
+/*taken from copilot to solve an issue with the form not aligning with the list,
+only works on desktop. tried to fix it for hours to try to make it work on other devices
+but thats the only solution.*/
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 653.5px;
+}
